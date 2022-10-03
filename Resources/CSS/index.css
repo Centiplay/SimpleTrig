@@ -4,8 +4,22 @@
   padding: 0;
   background-color: #073763;
 }
+
+#banner {
+	display: block;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	max-height: 10px;
+}
+
+.mainsect {
+	position: relative;
+	top: 100px;
+	left: 50px;
+}
  
- img {
+ .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -14,13 +28,15 @@
  
 h1 {
   color: #073763;
-  text-align: center;
+  text-align: center;  
   background-color: #f79612;
   padding: 10px;
+  font-family: Bahnschrift Light;
 }
 
 h2 {
-  color: white;
+	position: relative;
+	color: white;
 }
 
 h4 {
@@ -61,6 +77,7 @@ position:fixed;
 display: block;
 background-color: #f79612;
 top: 14px;
+z-index: 10;
 }
 .dropdownlist-content {
 display: none;
@@ -68,7 +85,7 @@ position: absolute;
 background-color: teal;
 min-width: 120px;
 border-radius: 0px 25px 25px 25px;
-z-index: 1;
+z-index: 10;
 }
 .dropdownlist-content a {
 color: white;
